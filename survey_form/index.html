@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sports Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1 id="title">Sports Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us with the survey</p>
+    <form id="survey-form">
+     <fieldset>
+        <label id="name-label">Name: <input placeholder="Enter your Name" id="name" type="text" required></label>
+        <label id="email-label">Email: <input placeholder="Enter your email" id="email" type="email" required></label>
+        <label id="number-label">Input your age (years): <input id="number" type="number" id="number" placeholder="Age" min="15" max="120" /></label>
+     </fieldset>
+     <fieldset id="profession">
+       <label>I am a:
+       <select id="dropdown" required>
+         <option value="">Choose one option</option>
+         <option value="1">Professional athlete</option>
+         <option value="2">Former professional athlete</option>
+         <option value="3">Student athlete</option>
+         <option value="3">Former student athlete</option>
+       </select>
+       </label>
+     </fieldset>
+     <fieldset id="how_often">
+       <legend>On average, how often you do practice sports?</legend>
+       <label for="daily"><input name="daily" type="radio" checked value="daily">Daily</label>
+       <label for="3-4_times"><input name="3-4_times" type="radio" value="3-4_times">3-4 times a week</label>
+       <label for="1-2_times"><input name="1-2_times"type="radio" value="1-2_times">1-2 times a week</label>
+       <label for="2_weeks"><input name="2_weeks" type="radio" value="2_weeks">Every 2 weeks</label>
+       <label for="once"><input name="once" type="radio" value="once">Once a month</label>
+     </fieldset>
+     <fieldset id="place">
+       <legend>Where do you usually practice these sports?</legend>
+       <label><input type="checkbox" checked value="sports_club">Sports club, association, etc</label>
+       <label><input type="checkbox" value="complex">Public/private sports complex</label>
+       <label><input type="checkbox" value="gym">In the gym</label>
+       <label><input type="checkbox" value="home">At home</label>
+       <label><input type="checkbox" value="outside">Outside</label>
+       <label><input type="checkbox" value="other">Other</label>
+     </fieldset>
+     <label for="message"> Say something about sports<textarea name="message"></textarea></label>
+     <label><button id="submit">Submit</button></label>
+    </form>
+  </div>
+  </body>
+</html>
