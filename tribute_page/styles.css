@@ -1,0 +1,40 @@
+body
+{
+    background-color: #d4d4dd;
+}
+main
+{
+    display: block;
+    text-align: center;
+}
+#img-div
+{
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+img
+{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+  
+a
+{
+    text-decoration: none;
+}
+
+div .read-more
+{
+    font: bold;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+li
+{
+    text-align: left;
+  
+}
