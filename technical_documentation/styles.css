@@ -14,8 +14,10 @@
     top: 2px;
     text-align: left;
     height: 30px;
-    padding: 2px;
-    margin: 0;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
     width: 100%;
     border-bottom: 1px solid #000;
 }
@@ -36,12 +38,16 @@ code{
     }
     .left{
         width: 15vw;
+        padding: 5px;
+        margin: 0 auto;
+        position: relative;
     }
     .right{
-        margin: 2px;
-        padding: 5px;
+        margin-left: 2vw;
+        padding-left: 10px;
         width: 75vw;
         border-left: 1px solid #000;
+        position: relativ;
     }
     #navbar p:last-of-type{
         border-bottom: none;
