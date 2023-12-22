@@ -1,29 +1,30 @@
 *
 {
-    box-sizing: border-box;
     background-color: #f4f4f4;
 }
 body
 {
-    width: 90vw;
+    margin: auto;
+    border: 1px solid black;
+    width: 95vw;
     display: grid;
-    grid-template-rows: 5rem 70rem 5rem;
+    grid-template-rows: 3rem 65rem 20rem;
 }
 #header
 {
     grid-row: 1 / 2;
-    padding-top: 0;
     margin-top: 0;
     position: fixed;
+    overflow-y: scroll;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 60px;
+    height: 5vh;
     width: 100%;
 }
 #header-img
 {
     grid-column: 1 / 2;
-    height: 50px;
+    height: 3vh;
     width: 60vw;
 }
 #nav-bar
@@ -43,75 +44,62 @@ a{
     text-decoration: none;
     color: black;
 }
-main
+.main
 {
     grid-row: 2 / 3;
     text-align: center;
+    margin: 0 auto;
+    width: 70vw;
+}
+.footer
+{
+    width: 70vw;
     margin: auto;
+    grid-row: 3 / 3;
+    margin-top: 0;
+}
+.footer-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer-list li
+{
+    text-align: justify;
+    margin: 0 5px;
 }
 #pricing
 {
-    padding: 5px;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 30vh;
-    width: 55vw;
+    height: 38vh;
+    width: 50vw;
     column-gap: 5px;
 }
 .price
 {
     border: 1px solid black;
-    width: 20rem;
-}
-footer
-{
+    width: 15rem;
+    height: 15rem;
     margin: auto;
-    width: 60vw;
-    grid-row: 3 / 3;
-    text-align: right;
-    padding: 5px;
-}
-.footer-list
-{
-    text-align: justify;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
 }
 li{
     list-style-type: none;
 }
 #how-it-works
 {
-    margin: 10px;
-    padding: 10px;
-    width: 60vw;
-    height: 40vh;
-
+    margin: auto;
+    height: 35vh;
+    width: 70vw;
 }
 iframe
 {
     margin: auto;
-    width: 550px;
-    height: 330px;
-}
-.price h3, footer, .footer-list a, footer p, .footer-list
-{
-    background-color: rgb(216, 216, 216);
-}
-.footer-list li
-{
-    margin-bottom: 0;
-    margin-right: 20px;
-    margin-top: 20px;
-}
-.footer-list p
-{
-    margin-top: 0;
+    height: 35vh;
+    width: 40vw;
 }
 .price h3
 {
@@ -124,8 +112,7 @@ iframe
 {
     margin: auto;
     text-align: left;
-    width: 60vw;
-    padding: 3px;
+    width: 70vw;
 }
 .part
 {
@@ -142,7 +129,26 @@ i
     width: 20px;
     height: 20px;
 }
+.footer p
+{
+    text-align: right;
+}
 form
 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
+#email
+{
+    height: 2vh;
+    width: 15vw;
+    margin: auto;
+    border-radius: 1px;
+}
+#submit
+{
+    width: 10vw;
+    height: 3vh;
+    background-color: rgb(211, 180, 3);
+    margin: auto;
 }
