@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/60c5e695dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Product Landing Page</title>
 </head>
 <body>
@@ -20,32 +20,40 @@
     </header>
     <main>
         <div class="submit">
-            <h2>Handcrafted, home-made masterpieces</h2>
-            <input type="email" id="email" placeholder="Enter your email address" required>
-            <input type="submit" >
+            <form action="GET">
+                <h2>Handcrafted, home-made masterpieces</h2>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+                <input type="submit" >
+            </form>
         </div>
         <div id="features">
-           <div class="icon-div">
-            <i class=""></i>
-           </div>
-           <div>
-            <h3>Premium Materials</h3>
-            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-           </div>
-           <div class="icon-div">
-            <i class="fa-solid fa-fire-flame-curved"></i>
-           </div>
-           <div>
-            <h3>Fast Shipping</h3>
-            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-           </div>
-           <div class="icon-div">
-            <i class="fa fa-battery-full" aria-hidden="true"></i>
-           </div>
-           <div>
-            <h3>Quality Assurance</h3>
-            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-           </div>
+            <section class="part">
+                <div class="icon-div">
+                    <i class="fa fa-3x fa-fire"></i>
+                </div>
+                <div class="description">
+                    <h3>Premium Materials</h3>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </section>
+            <section class="part">
+                <div class="icon-div">
+                    <i class="fa fa-3x fa-truck"></i>
+                </div>
+                <div class="description">
+                    <h3>Premium Materials</h3>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </section>
+            <section class="part">
+                <div class="icon-div">
+                    <i class="fa fa-3x fa-battery-full"></i>
+                </div>
+                <div class="description">
+                    <h3>Premium Materials</h3>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </section>
         </div>
         <div id="how-it-works">
             <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>

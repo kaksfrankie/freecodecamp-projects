@@ -120,3 +120,29 @@ iframe
     height: 50px;
     text-align: center;
 }
+#features
+{
+    margin: auto;
+    text-align: left;
+    width: 60vw;
+    padding: 3px;
+}
+.part
+{
+    display: grid;
+    grid-template-columns: 0.5fr 50rem;
+}
+.icon-div
+{
+    margin: auto;
+}
+i
+{
+    color: orange;
+    width: 20px;
+    height: 20px;
+}
+form
+{
+    display: block;
+}
