@@ -5,10 +5,9 @@
 body
 {
     margin: auto;
-    border: 1px solid black;
     width: 95vw;
     display: grid;
-    grid-template-rows: 3rem 65rem 20rem;
+    grid-template-rows: 3rem 75rem 10rem;
 }
 #header
 {
@@ -53,7 +52,8 @@ a{
 }
 .footer
 {
-    width: 70vw;
+    border-radius: 3px;
+    width: 50vw;
     margin: auto;
     grid-row: 3 / 3;
     margin-top: 0;
@@ -82,8 +82,8 @@ a{
 .price
 {
     border: 1px solid black;
-    width: 15rem;
-    height: 15rem;
+    width: 18rem;
+    height: 16.5rem;
     margin: auto;
 }
 li{
@@ -91,8 +91,8 @@ li{
 }
 #how-it-works
 {
-    margin: auto;
-    height: 35vh;
+    margin: 5px auto;
+    height: 32vh;
     width: 70vw;
 }
 iframe
@@ -116,6 +116,7 @@ iframe
 }
 .part
 {
+    height: 12vh;
     display: grid;
     grid-template-columns: 0.5fr 50rem;
 }
@@ -140,15 +141,36 @@ form
 }
 #email
 {
+    background-color: #fff;
+    padding: 5px;
     height: 2vh;
     width: 15vw;
-    margin: auto;
-    border-radius: 1px;
+    margin: 5px auto;
+    border-radius: 3px;
 }
 #submit
 {
+    border: none;
+    border-radius: 3px;
     width: 10vw;
-    height: 3vh;
+    height: 3.5vh;
     background-color: rgb(211, 180, 3);
-    margin: auto;
+    margin: 5px auto;
+}
+.price button
+{
+    padding: 1rem;
+    margin-bottom: 0;
+    border: none;
+    background-color:rgb(211, 180, 3);
+    border-radius: 3px;
+}
+.price p:first-of-type
+{
+    font-weight: 600;
+    font-size: larger;
+}
+.price h3, .footer, .footer p, .footer .footer-list, .footer-list a
+{
+    background-color: #a9a9a9;
 }
