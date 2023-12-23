@@ -20,7 +20,7 @@ body
     height: 5vh;
     width: 100%;
 }
-#header-img
+#img-header
 {
     grid-column: 1 / 2;
     height: 3vh;
@@ -35,7 +35,7 @@ body
     flex-direction: row;
     justify-content: space-around;
 }
-#logo
+#header-img
 {
     height: 50px;
 }
@@ -173,4 +173,12 @@ form
 .price h3, .footer, .footer p, .footer .footer-list, .footer-list a
 {
     background-color: #a9a9a9;
+}
+
+@media screen and (max-width: 470px)
+{
+    .icon-div
+    {
+        display: none;
+    }
 }

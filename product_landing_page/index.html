@@ -8,19 +8,19 @@
     <title>Product Landing Page</title>
 </head>
 <body>
-    <div id="header">
-        <div id="header-img">
-            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" id="logo">
+    <header id="header">
+        <div id="img-header">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" id="header-img">
         </div>
-        <div id="nav-bar">
-                <a href="#features">Features</a>
-                <a href="#how-it-works">How it Works</a>
-                <a href="#pricing">Pricing</a>  
-        </div>
-    </div>
+        <nav id="nav-bar">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How it Works</a>
+                <a href="#pricing" class="nav-link">Pricing</a>  
+    </nav>
+    </header>
     <div class="main">
         <div class="submit">
-            <form action="GET">
+            <form method="GET" action="https://www.freecodecamp.com/email-submit" id="form">
                 <h2>Handcrafted, home-made masterpieces</h2>
                 <input type="email" name="email" id="email" placeholder="Enter your email address" required>
                 <input for="email" type="submit" id="submit">
@@ -56,7 +56,7 @@
             </section>
         </div>
         <div id="how-it-works">
-            <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" id="video"></iframe>
         </div>
         <div id="pricing">
             <div class="price">
